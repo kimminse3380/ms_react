@@ -1,10 +1,12 @@
+import Cards from './componts/Cards'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <h1>Memory Game - React</h1>
-      <div className="container"></div>
+      <Cards />
+      {/* <div className="container"></div> */}
     </div>
   );
 }
